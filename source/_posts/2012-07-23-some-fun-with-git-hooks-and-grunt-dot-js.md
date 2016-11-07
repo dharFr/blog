@@ -3,7 +3,7 @@ layout: post
 title: "Some fun with git hooks and Grunt.js"
 date: 2012-07-23 22:55
 comments: true
-categories: 
+tags:
  - Automation
  - git hooks
  - git
@@ -20,7 +20,7 @@ At this point, my concern was the following: How could I include the bookmarklet
 
 <!-- more -->
 
-## Basic (handmade™) workflow 
+## Basic (handmade™) workflow
 
 In a first try, I could just copy/paste the minified source into an `<a href="...">` link in my `index.html`.
 But what happens if I update the source?
@@ -49,20 +49,20 @@ Rather boring, right? Totally agree! And that's why I decided to dig a little fu
 
 ### Avoiding copy / paste
 
-Copy/paste a file from a branch to another _may_ be acceptable if you do it only once. From there, it's probably better to use the following: 
+Copy/paste a file from a branch to another _may_ be acceptable if you do it only once. From there, it's probably better to use the following:
 
 ```
 git checkout gh-pages # checkout gh-pages branch
 
 # add/update 'dist' directory from master branch
-git checkout master -- dist  
+git checkout master -- dist
 ```
 
 ### Updating HTML content
 
-As mentioned earlier, I already used [grunt.js](http://gruntjs.com/) to lint, concat and minify my source on the `master` branch. 
+As mentioned earlier, I already used [grunt.js](http://gruntjs.com/) to lint, concat and minify my source on the `master` branch.
 So I searched for a way to use grunt to update the HTML link. I quickly found [grunt-replace](https://github.com/outaTiME/grunt-replace), perfect fit for the job.
-I ended up with an HTML source file, with a placeholder for the bookmarklet: 
+I ended up with an HTML source file, with a placeholder for the bookmarklet:
 ``` html
 <a href='@@bookmarklet'>Prettify</a>
 ```
@@ -85,7 +85,7 @@ And a simple grunt `replace` task, reading the minified source and generating an
 
 Basically, [Git Hooks](http://git-scm.com/book/en/Customizing-Git-Git-Hooks) allow you to automatically run custom scripts at any step in your workflow.
 Hooks must be defined in the `.git/hooks/` folder.
-Placeholder files are already created, giving a pretty good idea about what's possible or not.  
+Placeholder files are already created, giving a pretty good idea about what's possible or not.
 
 ``` bash
 $ ls .git/hooks/
@@ -100,11 +100,11 @@ pre-rebase.sample
 prepare-commit-msg.sample
 update.sample
 ```
-You only need to remove the `.sample` extension to define a hook, then edit the script to create your own awesome automation. 
+You only need to remove the `.sample` extension to define a hook, then edit the script to create your own awesome automation.
 
 ### Bringing the pieces together
 
-In my case, I created a `post-commit` script. Right after every new commit on the `master` branch, this piece of code runs and does all the crappy work. 
+In my case, I created a `post-commit` script. Right after every new commit on the `master` branch, this piece of code runs and does all the crappy work.
 
 ``` bash post-commit
 #!/bin/sh
@@ -112,7 +112,7 @@ echo "\n| [prettify bookmarklet post-commit hook]"
 git checkout gh-pages
 
 # Update bookmarklet script from master branch
-git checkout master -- dist lib 
+git checkout master -- dist lib
 
 # update index.html & commit changes
 grunt replace
@@ -130,8 +130,8 @@ I use `git push --all`, which is fine if you don't have any other updated branch
 
 I'd like to find a way to stop the script if the commit doesn't occur on the `master` branch, but I'm not sure how to do it...
 
-I'll probably also add a `pre-commit` hook to lint/concat/minify the source. 
-Grunt.js already simplified this to a one liner, but I often forget to call it before committing changes. 
+I'll probably also add a `pre-commit` hook to lint/concat/minify the source.
+Grunt.js already simplified this to a one liner, but I often forget to call it before committing changes.
 
 (Grunt + Git Hooks) appears to be a nice couple with a huge time-saving potential. I'd like to have an opportunity to try it on a larger project and see how it goes.
 

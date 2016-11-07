@@ -3,19 +3,15 @@ layout: post
 title: "I'm crazy about Sublime Text 2. Here is why"
 date: 2012-09-04 23:22
 comments: true
-categories: 
- - tools
+tags:
+ - Tools
  - Sublime Text 2
-
-status: draft
-draft: true
-published: false
 ---
 
 
 
 
-I talked about ST2 during RivieraCWE (+link). 
+I talked about ST2 during RivieraCWE (+link).
 Simple, clean, super-powerful, highly customizable, text editor.
 Access everything with (quite) the same command: Ctrl+P, Ctrl+Shift+P, Ctrl+Alt+P
 

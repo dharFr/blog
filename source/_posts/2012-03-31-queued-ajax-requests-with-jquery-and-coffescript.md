@@ -3,16 +3,16 @@ layout: post
 title: "Queued ajax requests with jQuery and Coffescript"
 date: 2012-03-31 21:46
 comments: true
-categories:
+tags:
 - Coffeescript
-- Javascript
+- JavaScript
 - jQuery
-- Deferred objects
 - jQuery plugin
+- Deferred objects
 ---
 
-I recently had to queue a few ajax requests. I wrote a little piece of Coffeescript+jQuery to provide a reusable way of doing it. 
-Using jQuery's [Deferred](http://api.jquery.com/category/deferred-object/) objects and CoffeeScript makes the task really easy. 
+I recently had to queue a few ajax requests. I wrote a little piece of Coffeescript+jQuery to provide a reusable way of doing it.
+Using jQuery's [Deferred](http://api.jquery.com/category/deferred-object/) objects and CoffeeScript makes the task really easy.
 
 <!--more-->
 

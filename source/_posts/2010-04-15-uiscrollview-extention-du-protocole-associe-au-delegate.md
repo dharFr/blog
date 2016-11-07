@@ -2,14 +2,9 @@
 layout: post
 title: "UIScrollView: Extention du protocole associé au delegate"
 date: 2010-04-15
-published: true
-meta:
-  _edit_last: "2"
-categories:
+tags:
 - iPhone
 - Objective-C
-type: post
-status: publish
 ---
 
 {% img right /assets/dhar/ImageViewer1-161x300.png 161 300 'UIScrollView dans un ImageViewer' 'ImageViewer' %}

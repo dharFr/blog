@@ -2,15 +2,10 @@
 layout: post
 title: Plugin jQuery - Aide contextuelle Javascript
 date: 2010-09-05
-published: true
-meta:
-  _edit_last: "2"
-categories:
-- Javascript
+tags:
+- JavaScript
 - jQuery
 - jQuery plugin
-type: post
-status: publish
 ---
 Voilà déjà pas mal de temps que je n'ai rien publié ici... Ce qui ne veux pas dire que j'ai rien dans les cartons. C'est plutôt le temps qui manque un peu quand il s'agit de présenter tout ça de façon correcte.
 

@@ -3,7 +3,8 @@ layout: post
 title: "Adding Grunt to your web-application project"
 date: 2012-10-28 00:24
 comments: true
-categories:
+tags:
+ - Automation
  - grunt.js
  - tools
 ---
@@ -27,7 +28,7 @@ That's what I'm going to detail in this post.
     position: relative;
     width: 100%;
     height: 0;
-    padding-bottom: 56%; /* The height of the item will now be 56% of the width. */
+    padding-bottom: 82%; /* The height of the item will now be 82% of the width. */
   }
   .dhar-aspect-ratio iframe {
     position: absolute;

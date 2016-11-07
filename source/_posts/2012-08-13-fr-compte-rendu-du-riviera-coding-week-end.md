@@ -3,7 +3,7 @@ layout: post
 title: "Compte-rendu du Riviera Coding Week-end"
 date: 2012-08-13 15:07
 comments: true
-categories: 
+tags:
  - In French
  - Personal Life
  - Events
@@ -16,7 +16,7 @@ If you're anyway interested, I'm sure [Google translate](http://translate.google
 [{% img right http://dhar.openphoto.me.s3.amazonaws.com/custom/201208/5d466e-EB855D13-DD73-423D-ACF1-51A94E35A82A_960x180.jpg %}](http://photos.dhar.fr/p/ke/album-2)
 Du 10 au 12 Août dernier, j'ai participé au premier _Riviera Coding Week-end_, organisé par les membres du [RivieraGUG](http://www.meetup.com/Riviera-Groovy-Grails-User-Group/) avec la participation du [JSSophia](http://groups.google.com/group/jssophia) dont je fais partie.
 À ma connaissance, c'est le premier événement du genre qui ait lieu sur la côte d'azur.
-C'est en tout cas le premier auquel j'ai eu l'occasion de participer. 
+C'est en tout cas le premier auquel j'ai eu l'occasion de participer.
 Après ces 48 heures passées à construire, échanger, mais surtout coder, un petit bilan me semble bien utile.
 
 <!-- more -->
@@ -29,7 +29,7 @@ Par la suite, alors que certains membres du _[Javascript User Group](http://grou
 [{% img left http://dhar.openphoto.me.s3.amazonaws.com/custom/201208/3eebc3-26D8653A-2BBB-4830-9F00-A240FF4514C6_960x180.jpg %}](http://photos.dhar.fr/p/kd/album-2)
 Nous y voilà, c'est Vendredi soir, il est un peu plus de 19h30 lorsque j'arrive aux [Satellites](http://www.satellites-teletravail.com/) (qui nous ont hébergés gracieusement tout le week-end).
 La plupart des participants sont déjà arrivés.
-Il y a quelques visages bien connus, des collègues de travail, avec qui je passe déjà mes journées en semaines; certains sont simplement familiers, croisés lors des précédentes réunions du JSSophia ou lors de conférences qui ont eu lieu à Sophia-Antipolis quelques mois plus tôt; puis d'autres, enfin, que je rencontre pour la première fois. 
+Il y a quelques visages bien connus, des collègues de travail, avec qui je passe déjà mes journées en semaines; certains sont simplement familiers, croisés lors des précédentes réunions du JSSophia ou lors de conférences qui ont eu lieu à Sophia-Antipolis quelques mois plus tôt; puis d'autres, enfin, que je rencontre pour la première fois.
 
 D'entrée de jeu, l'ambiance est décontractée, l'accueil chaleureux et tout le monde est souriant.
 Sans trop savoir ce que va donner cette expérience, on sait déjà qu'on est tous là pour la même chose: partager notre passion du web et construire quelque chose, tous ensemble, _just for fun_.
@@ -40,8 +40,8 @@ Sans trop savoir ce que va donner cette expérience, on sait déjà qu'on est to
 
 Le programme du Week-end est assez simple et couvre principalement la soirée du vendredi, après tout, on est pas là pour subir un planning rigoureux.
 
-Le début de soirée est assez calme. 
-On fait connaissance, on se raconte nos vacances (pour ceux qui en ont pris...), on prends l'apéro en terrasse, on envoie quelques tweets en espérant ramener de nouveaux participants de dernière minute. 
+Le début de soirée est assez calme.
+On fait connaissance, on se raconte nos vacances (pour ceux qui en ont pris...), on prends l'apéro en terrasse, on envoie quelques tweets en espérant ramener de nouveaux participants de dernière minute.
 Certains configurent le Raspberry Pi qui hébergera un [EtherPad](http://fr.wikipedia.org/wiki/EtherPad) pour la durée du week-end.
 
 ## Grails Crash Course
@@ -49,7 +49,7 @@ Certains configurent le Raspberry Pi qui hébergera un [EtherPad](http://fr.wiki
     | Configuring classpath
 
 [{% img right http://dhar.openphoto.me.s3.amazonaws.com/custom/201208/2a719f-04CDD1E8-97CF-4210-9593-14718F7D2CBC_960x180.jpg %}](http://photos.dhar.fr/p/k2/album-2)
-Après avoir dévoré quelques pizzas, on attaque les choses sérieuses avec un _Crash Course Grails_ d'une petite demi-heure présenté par [Bertrand Goetzmann](https://twitter.com/bgoetzmann), bien utile pour ceux qui n'auraient jamais eu l'occasion d'utiliser le Framework. 
+Après avoir dévoré quelques pizzas, on attaque les choses sérieuses avec un _Crash Course Grails_ d'une petite demi-heure présenté par [Bertrand Goetzmann](https://twitter.com/bgoetzmann), bien utile pour ceux qui n'auraient jamais eu l'occasion d'utiliser le Framework.
 Là encore, l'ambiance est bien loin d'un cours magistral.
 La plupart des participants connaissent bien les rouages de Grails et le cours de Bertrand devient un bon prétexte pour partager les expériences de chacun et échanger les points de vue.
 
@@ -66,8 +66,8 @@ Rapidement, quelques sujets intéressants font surface, souvent liés à l'activ
  - Manque de relations et de collaboration entre ces groupes.
  - Problématiques récurrentes d'un groupe à l'autre: trouver une salle, un sponsor, se faire connaître localement, informer et impliquer les membres
 
-Vient ensuite l'idée de créer un site dédié aux User Groups de la région, ayant pour objectif de faciliter la découverte des communautés locales et leur collaboration. 
-Le projet est ambitieux, mais l'important est surtout de lancer une initiative. 
+Vient ensuite l'idée de créer un site dédié aux User Groups de la région, ayant pour objectif de faciliter la découverte des communautés locales et leur collaboration.
+Le projet est ambitieux, mais l'important est surtout de lancer une initiative.
 Pour pouvoir obtenir un résultat concret en un week-end, nous décidons de nous concentrer sur les éléments de base du site et de garder de côté les idées qui demandent davantage de travail.
 
 #### Première itération: Briques de base
@@ -98,7 +98,7 @@ Raconter les deux jours suivants en détail serait sans doute trop long et assez
 
 L'important à retenir est sans doute que les contributions ont été nombreuses : écrire du code, décortiquer OAuth, dessiner des croquis d'IHM, mettre en place l'intégration continue (_continious outage?_), travailler le design de site, aider les débutants ou simplement mettre l'ambiance et remotiver les troupes; chacun a contribué au projet selon ses compétences et sa forme du moment.
 
-Le résultat est là! Le projet est bien démarré, le code est [disponible sur Github](https://github.com/rivieragug/website) et une première version est [déjà en ligne](http://ughub.cloudfoundry.com/) 
+Le résultat est là! Le projet est bien démarré, le code est [disponible sur Github](https://github.com/rivieragug/website) et une première version est [déjà en ligne](http://ughub.cloudfoundry.com/)
 
 ## Bilan
 
@@ -107,7 +107,7 @@ Le résultat est là! Le projet est bien démarré, le code est [disponible sur 
 Concernant la soirée de vendredi, je crois qu'il aurait été judicieux d'attaquer le brainstorming avant le Crash Course Grails.
 Cela aurait permis d'entrer directement dans le vif du sujet et d'utiliser le cours pour construire les premiers éléments du projet. On aurait gagné un peu de temps, et tout le monde aurait été plus impliqué dans le cours.
 
-Ensuite, comme je l'ai dis plus haut, le projet était sans doute trop ambitieux par rapport au temps à notre disposition. Il faut reconnaître que la version obtenue à l'issue du week-end est plus proche du prototype que d'une application de qualité professionnelle. 
+Ensuite, comme je l'ai dis plus haut, le projet était sans doute trop ambitieux par rapport au temps à notre disposition. Il faut reconnaître que la version obtenue à l'issue du week-end est plus proche du prototype que d'une application de qualité professionnelle.
 
 Malgré tout, en ce qui me concerne, cette expérience a été clairement positive.
 Une ambiance bien sympa, des locaux au top, et une belle brochette de passionnés qui se sont tous  impliqués dans le projet comme si l'enjeu avait été important.
@@ -117,7 +117,7 @@ Après tout, l'initiative est lancée et le code est là, ouvert à tous, dispon
 Il ne tiens qu'à nous de continuer à faire avancer ce projet, en y contribuant nous-même ou en motivant d'autres personnes à participer. Quelques _pull requests_ de plus et on l'aura le site communautaire qu'on a imaginé tous ensemble vendredi dernier.
 
 Y'a plus qu'à comme on dit... ;)
- 
+
 ## Remerciements
 
     | Server running. Browse to http://ughub.cloudfoundry.com/
@@ -129,13 +129,13 @@ Merci, donc, aux membres du RiveraGUG pour avoir lancé l'initiative et géré l
 Merci aux [Satellites](http://www.satellites-teletravail.com/), et plus particulièrement à Nicolas, qui a accueilli notre petit groupe sans rien demander en retour. Vos locaux sont géniaux, si un jour je me met à mon compte, je sais déjà où établir mon QG ;)
 Merci aussi à nos deux sponsors, [Avisto](http://www.avisto.com) et [Sopra Group](http://www.sopragroup.com/) pour avoir nous avoir permis de travailler le ventre plein.
 
-Et merci enfin à tous ceux qui étaient présent et qui se sont impliqués au cours du week-end. 
+Et merci enfin à tous ceux qui étaient présent et qui se sont impliqués au cours du week-end.
 
 ## Quelques liens en vrac
 
  - L'application sur cloud-foundry : [UG-hub](http://ughub.cloudfoundry.com/)
  - Le [Code Source](https://github.com/rivieragug/website) sur Github
- - [Quelques Photos](http://photos.dhar.fr/photos/album-2/list) 
+ - [Quelques Photos](http://photos.dhar.fr/photos/album-2/list)
  - Les participants sont aussi [sur Twitter](https://twitter.com/_dhar/rivieracwe-2012)
  - _Update_: Les [slides](http://www.odelia-technologies.com/Grails/Grails.impress.html) de Bertrand sont maintenant disponibles
 

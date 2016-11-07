@@ -2,15 +2,10 @@
 layout: post
 title: "QR Codes: intégration dans votre application iPhone en 10 minutes chrono!"
 date: 2010-04-20
-published: true
-meta:
-  _edit_last: "2"
-categories:
+tags:
 - iPhone
 - Objective-C
 - QRCode
-type: post
-status: publish
 ---
 
 {% img right /assets/dhar/qrcode.png 150 150 'Decode me if you can' 'Sample QR Code' %}

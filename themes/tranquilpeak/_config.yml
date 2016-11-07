@@ -39,10 +39,10 @@ sidebar:
         #     title: global.categories
         #     url: /blog/all-categories
         #     icon: bookmark
-        # tags:
-        #     title: global.tags
-        #     url: /blog/all-tags
-        #     icon: tags
+        tags:
+            title: global.tags
+            url: /blog/all-tags
+            icon: tags
         archives:
             title: global.archives
             url: /blog/all-archives

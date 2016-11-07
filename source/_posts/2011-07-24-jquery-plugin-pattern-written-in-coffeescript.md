@@ -2,16 +2,11 @@
 layout: post
 title: jQuery plugin pattern written in Coffeescript
 date: 2011-07-24
-published: true
-meta:
-  _edit_last: "2"
-categories:
+tags:
 - CoffeeScript
-- Javascript
+- JavaScript
 - jQuery
 - jQuery plugin
-type: post
-status: publish
 ---
 Once your [CoffeeScript](http://jashkenas.github.com/coffee-script/) environment is up and running, you may want to write some awesome new jQuery plugin with CoffeeScript.
 

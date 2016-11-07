@@ -3,7 +3,7 @@ layout: post
 title: "Reading List #1"
 date: 2013-01-27 18:36
 comments: false
-categories: 
+tags:
  - bookmarks
 ---
 

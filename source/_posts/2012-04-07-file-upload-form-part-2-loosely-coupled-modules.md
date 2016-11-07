@@ -3,7 +3,7 @@ layout: post
 title: "File Upload Form - Part 2: Loosely Coupled Modules"
 date: 2012-04-07 17:48
 comments: true
-categories: 
+tags:
 - Javascript
 - Progressive Enhancement
 - Feature Detection
@@ -30,7 +30,7 @@ If you never hear about loosely coupled module, I highly recommended you to read
 
 <!-- more -->
 
-Those links will give you a pretty good picture but to summarize briefly, the main  concepts to keep in mind when you want to rely on a _loosely coupled modules_ architecture is that you need to: 
+Those links will give you a pretty good picture but to summarize briefly, the main  concepts to keep in mind when you want to rely on a _loosely coupled modules_ architecture is that you need to:
 
  - Split your code into separate modules, obviously.
  - Don't allow a module to know about each-other.
@@ -63,7 +63,7 @@ That's why we need to introduce the observer component. Its role is to allow com
 There many different implementations of the observer pattern but it's basically a component with 3 methods:
 ``` js
     var observer = {
-      publish: function( topic ) { 
+      publish: function( topic ) {
         // ...
       },
       subscribe: function ( topic, func ) {
@@ -81,7 +81,7 @@ There many different implementations of the observer pattern but it's basically 
 
 #### Using the observer
 
-Back the the upload form, the implementation doesn't change that much. You only need to pass the observer as parameter, and publish some events to notify the application 
+Back the the upload form, the implementation doesn't change that much. You only need to pass the observer as parameter, and publish some events to notify the application
 
 ``` javascript adding the observer https://github.com/dharFr/uploader-thumbnail/blob/step-by-step-demo/public/js/step3/upload.js#L13 Source
     this.obs = options.observer || {publish:function(){}, subscribe:function(){}};
@@ -115,7 +115,7 @@ On the other side, the thumbnail module need to listen to these events and to re
       // ...
     }
 ```
-As you can see in the above code, both `uploader` and `thumbnail` module are not aware from each others, they only talk and listen to the observer. 
+As you can see in the above code, both `uploader` and `thumbnail` module are not aware from each others, they only talk and listen to the observer.
 
 ### Conclusion
 
