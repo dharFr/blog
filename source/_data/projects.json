@@ -1,0 +1,22 @@
+ [
+   {
+      "name":"Badgee",
+      "url":"https://github.com/dharFr/badgee/",
+      "desc":"A browser console improvement"
+   },
+   {
+      "name":"The Way We Move",
+      "url":"https://the-way-we-move.surge.sh/",
+      "desc":"Let's play with canvas drawing and WebAudio API, see if something interesting might appear. A first attempt to Code like no one's watching."
+   },
+   {
+      "name":"Prettyprint Bookmarklet",
+      "url":"http://www.dhar.fr/grunt-wkhtmltopdf/",
+      "desc":"A small bookmarklet to apply google-code-prettify syntax highlighting to any in-browser raw code."
+   },
+   {
+      "name":"Grunt-wkhtmltopdf",
+      "url":"http://www.dhar.fr/prettyprint-bookmarklet/",
+      "desc":"Grunt Task that uses wkhtmltopdf to convert HTML files to PDF"
+   }
+]
