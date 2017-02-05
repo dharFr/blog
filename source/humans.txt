@@ -6,6 +6,7 @@ Github: http://github.com/dharFr
 Location: Nice, France
 
 /* SITE */
+Source :
 Software: Hexo - https://hexo.io/
 Theme: Cactus Dark by Pieter Robberechts - https://github.com/probberechts/cactus-dark
-Hosting: OVH - https://www.ovh.com
+Hosting: Neocities - https://neocities.org/

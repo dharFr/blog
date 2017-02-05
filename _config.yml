@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: dhar's blog
+title: Olivier Audard
 subtitle: Mostly Web Dev stuff...
 description: "My name is Olivier Audard, I'm a Front-end developer at <a href='https://www.dailymotion.com/'>Dailymotion</a>, co-founder of  <a href='https://www.twitter.com/JSSophia'>@JSSophia</a>, Tai-Chi-Chuan student, Video Gamer, Role Playing Gamer"
 author: Olivier Audard
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.dhar.fr
+url: https://www.audard.net
 root: /
 permalink: blog/:year/:month/:day/:title/
 permalink_defaults:
@@ -68,12 +68,16 @@ theme: cactus-dark
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: neocities
+  # user: <OMITTED> # user is specified in `_config-neocities.yml` (git ignored)
+  # pass: <SECRET> # password is specified in `_config-neocities.yml` (git ignored)
+  # Use `npm run deploy` or `hexo deploy --config _config.yml,_config-neocities.yml`
+  # Well, does not work for now... See https://github.com/neocities/neocities-node/issues/3
 
 # hexo-generator-feed plugin
 feed:
-    type: atom
-    path: atom.xml
+  type: atom
+  path: atom.xml
 
 # hexo-generator-tag plugin
 tag_generator:
