@@ -16,7 +16,7 @@
    },
    {
       "name":"Grunt-wkhtmltopdf",
-      "url":"http://www.dhar.fr/prettyprint-bookmarklet/",
+      "url":"http://www.dhar.fr/grunt-wkhtmltopdf/",
       "desc":"Grunt Task that uses wkhtmltopdf to convert HTML files to PDF"
    }
 ]
