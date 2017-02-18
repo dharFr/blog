@@ -6,8 +6,7 @@
     "start": "hexo server",
     "clean": "hexo clean",
     "prebuild": "npm run clean",
-    "build": "hexo generate",
-    "deploy": "hexo deploy --config _config.yml,_config-neocities.yml_config-neocities.yml"
+    "build": "hexo generate"
   },
   "hexo": {
     "version": "3.2.2"
