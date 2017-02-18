@@ -1,0 +1,5 @@
+# Netlify redirects
+# See https://www.netlify.com/docs/redirects/
+# ------------------------------------------
+/grunt-wkhtmltopdf       https://dharfr.github.io/grunt-wkhtmltopdf
+/prettyprint-bookmarklet https://dharFr.github.io/prettyprint-bookmarklet

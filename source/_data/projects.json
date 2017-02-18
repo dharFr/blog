@@ -11,12 +11,17 @@
    },
    {
       "name":"Prettyprint Bookmarklet",
-      "url":"http://www.dhar.fr/grunt-wkhtmltopdf/",
+      "url":"https://dharFr.github.io/prettyprint-bookmarklet/",
       "desc":"A small bookmarklet to apply google-code-prettify syntax highlighting to any in-browser raw code."
    },
    {
       "name":"Grunt-wkhtmltopdf",
-      "url":"http://www.dhar.fr/grunt-wkhtmltopdf/",
+      "url":"https://dharFr.github.io/grunt-wkhtmltopdf/",
       "desc":"Grunt Task that uses wkhtmltopdf to convert HTML files to PDF"
+   },
+   {
+      "name":"Static Templater",
+      "url":"https://github.com/dharFr/static-templater/",
+      "desc":"A grunt-based command line tool to render HTML and PDF from JSON and HTML templates"
    }
 ]
