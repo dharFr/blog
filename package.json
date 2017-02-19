@@ -6,7 +6,8 @@
     "start": "hexo server",
     "clean": "hexo clean",
     "prebuild": "npm run clean",
-    "build": "hexo generate"
+    "build": "hexo generate",
+    "postbuild": "cp netlify/_redirects public/"
   },
   "hexo": {
     "version": "3.2.2"

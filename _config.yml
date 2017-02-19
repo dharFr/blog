@@ -68,11 +68,6 @@ theme: cactus-dark
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: neocities
-  # user: <OMITTED> # user is specified in `_config-neocities.yml` (git ignored)
-  # pass: <SECRET> # password is specified in `_config-neocities.yml` (git ignored)
-  # Use `npm run deploy` or `hexo deploy --config _config.yml,_config-neocities.yml`
-  # Well, does not work for now... See https://github.com/neocities/neocities-node/issues/3
 
 # hexo-generator-feed plugin
 feed:
