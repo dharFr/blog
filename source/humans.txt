@@ -9,4 +9,4 @@ Location: Nice, France
 Source :
 Software: Hexo - https://hexo.io/
 Theme: Cactus Dark by Pieter Robberechts - https://github.com/probberechts/cactus-dark
-Hosting: Neocities - https://neocities.org/
+Hosting: Netlify - https://www.netlify.com
