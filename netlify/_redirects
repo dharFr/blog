@@ -1,5 +1,17 @@
 # Netlify redirects
 # See https://www.netlify.com/docs/redirects/
 # ------------------------------------------
+
+# Projects redirects
 /grunt-wkhtmltopdf       https://dharfr.github.io/grunt-wkhtmltopdf
 /prettyprint-bookmarklet https://dharFr.github.io/prettyprint-bookmarklet
+
+# Old blog compatibility
+/tag/*              /blog/tags/:splat
+/category/*         /410.html         410
+/blog/categories/*  /410.html         410
+/blog/page/*        /410.html         410
+
+# Google search console fixes
+/blog/2012/10/28/a-quick-talk-about-grunt           /blog/2012/10/28/adding-grunt-to-your-web-application-project/
+/2010/09/plugin-jquery-aide-contextuelle-javascript /blog/2010/09/05/plugin-jquery-aide-contextuelle-javascript/    301
