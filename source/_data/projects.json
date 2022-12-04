@@ -23,5 +23,10 @@
       "name":"Static Templater",
       "url":"https://github.com/dharFr/static-templater/",
       "desc":"A grunt-based command line tool to render HTML and PDF from JSON and HTML templates"
+   },
+   {
+      "name":"Testing Dailymotion Video Player",
+      "url":"/Test-page-Dailymotion-Video-Player/",
+      "desc":"A basic test page for Dailymotion Video Player"
    }
 ]
