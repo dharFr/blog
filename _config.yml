@@ -25,7 +25,7 @@ archive_dir: blog/archives
 category_dir: blog/categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: [assets/**/*, jsweek/**/*, google397055fe6557c97c.html]
+skip_render: [assets/**/*, jsweek/**/*, google397055fe6557c97c.html, dm5ghr5gyymgylqgz.html]
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
