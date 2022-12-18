@@ -1,5 +1,10 @@
  [
    {
+      "name":"Lone Star",
+      "url":"/experiments/lone-star/",
+      "desc":"Playing with lines and randomness using p5.js and canvas API. Yet another attempt to _Code like no one's watching_"
+   },
+   {
       "name":"Badgee",
       "url":"https://github.com/dharFr/badgee/",
       "desc":"A browser console improvement"
