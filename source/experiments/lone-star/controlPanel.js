@@ -45,7 +45,7 @@ const controlPanel = {
 
   createSelect: function (key, parameter) {
     const markup = `<label for="${key}Select">
-      ${key}<br>
+      ${key} 
       <select name="${key}Select">
         ${parameter.options
           .map(
@@ -85,26 +85,63 @@ const controlPanel = {
     });
   },
 
-  createShareLink: function () {
+  createCopyLinkButton: function () {
     const markup = `<label>
-      Copy link: <br>
-      <a name="copy-link" title="Copy link" href="#">${this.serialize()}</a>
+      Save link  
+      <input type="button" name="copy-link-btn" value="Copy Link" >
+      <output name="copy-link-btn-output"></output>
     </label>
     <hr>`;
-    this.rootNode.querySelector('.links').insertAdjacentHTML("beforebegin", markup);
+    this.rootNode.insertAdjacentHTML("beforeend", markup);
 
-    const a = this.rootNode.querySelector(`a[name="copy-link"]`);
+    const inputCopyLinkBtn = this.rootNode.querySelector(
+      "input[name=copy-link-btn]"
+    );
+    const outputCopyLinkBtn = this.rootNode.querySelector(
+      "output[name=copy-link-btn-output]"
+    );
 
-    a.addEventListener("click", (e) => {
-      navigator.clipboard.writeText(a.href).then(
+    inputCopyLinkBtn.addEventListener("click", (e) => {
+      const serial = this.serialize();
+      location.hash = encodeURIComponent(serial);
+
+      navigator.clipboard.writeText(location.href).then(
         () => {
-          a.insertAdjacentHTML("afterend", " (copied ✓)");
+          outputCopyLinkBtn.textContent = " (copied ✓)";
+          setTimeout(() => {
+            outputCopyLinkBtn.textContent = "";
+          }, 2000);
         },
         (err) => console.error("copy link failed.", err)
       );
     });
+  },
 
-    return a;
+  createSavePictureButton: function () {
+    const markup = `<label>
+      Save Picture  
+      <input type="button" name="save-pict-btn" value="Save Picture" >
+      <output name="save-pict-btn-output"></output>
+    </label>
+    <hr>`;
+    this.rootNode.insertAdjacentHTML("beforeend", markup);
+
+    const inputSavePictureBtn = this.rootNode.querySelector(
+      "input[name=save-pict-btn]"
+    );
+
+    inputSavePictureBtn.addEventListener("click", (e) => {
+      const serial = this.serialize();
+      location.hash = encodeURIComponent(serial);
+
+      // Watermark
+      this.watermark(serial, location.href);
+
+      // Save picture
+      saveCanvas(`lone-star-${serial}`, "jpg");
+
+      loop();
+    });
   },
 
   createLinks: function () {
@@ -128,22 +165,14 @@ const controlPanel = {
     rootNode,
     parameters,
     links,
-    onChange
+    onChange,
+    watermarkFunc
   ) {
     this.rootNode = rootNode;
     this.options = parameters;
     this.links = links;
-    // this.onChange = onChange
-    this.onChange = (key, param) => {
-      const serial = this.serialize();
-      if (!this.shareLink) {
-        this.shareLink = this.createShareLink();
-      }
-      this.shareLink.textContent = serial;
-      location.hash = encodeURIComponent(serial);
-      this.shareLink.href = location.href;
-      onChange(key, param);
-    };
+    this.onChange = onChange;
+    this.watermark = watermarkFunc;
 
     // Read/Write from the hash doesn't work on p5.js preview env
     // But does work when page is self-hosted
@@ -185,12 +214,18 @@ const controlPanel = {
         );
       }
     }
-
+    this.createCopyLinkButton();
+    this.createSavePictureButton();
     this.createLinks();
   },
 };
 
-p5.prototype.createControlPanel = function (parameters, links, onChange) {
+p5.prototype.createControlPanel = function (
+  parameters,
+  links,
+  onChange,
+  watermarkFunc
+) {
   const markup = `<aside id='controlPanel' class="control-panel">
     <details open>
       <summary>Parameters</summary>
@@ -202,5 +237,11 @@ p5.prototype.createControlPanel = function (parameters, links, onChange) {
   document.body.insertAdjacentHTML("beforeend", markup);
   const section = document.body.querySelector("#controlPanel details section");
 
-  controlPanel.createControlPanel(section, parameters, links, onChange);
+  controlPanel.createControlPanel(
+    section,
+    parameters,
+    links,
+    onChange,
+    watermarkFunc
+  );
 };
