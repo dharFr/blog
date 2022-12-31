@@ -1,3 +1,6 @@
 [submodule "themes/cactus-dark"]
 	path = themes/cactus-dark
 	url = git@github.com:dharFr/cactus-dark.git
+[submodule "experiments/lone-star"]
+	path = experiments/lone-star
+	url = git@github.com:dharFr/lone-star.git
