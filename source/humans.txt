@@ -1,7 +1,9 @@
 /* TEAM */
 Owner: Olivier Audard
 
-Twitter: http://twitter.com/_dhar
+Mastodon: 
+	- https://mamot.fr/@oad
+	- https://mastodon.social/@oad
 Github: http://github.com/dharFr
 Location: Nice, France
 
