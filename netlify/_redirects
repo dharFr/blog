@@ -12,6 +12,9 @@
 /blog/categories/*  /410.html         410
 /blog/page/*        /410.html         410
 
+# Proxy redirects
+/twitter/* https://twitter-dhar.netlify.app/:splat 200!
+
 # Google search console fixes
 /blog/2012/10/28/a-quick-talk-about-grunt           /blog/2012/10/28/adding-grunt-to-your-web-application-project/
 /2010/09/plugin-jquery-aide-contextuelle-javascript /blog/2010/09/05/plugin-jquery-aide-contextuelle-javascript/    301
