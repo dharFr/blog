@@ -5,7 +5,7 @@
 # Site
 title: Olivier Audard
 subtitle: Mostly Web Dev stuff...
-description: "My name is Olivier Audard, I'm a Front-end developer at <a href='https://www.dailymotion.com/'>Dailymotion</a>, co-founder of  <a href='https://www.twitter.com/JSSophia'>@JSSophia</a>, Tai-Chi-Chuan student, Video Gamer, Role Playing Gamer"
+description: "My name is Olivier. I'm a Front-end developer and Engineering Manager. Currently working as a Director of Engineering at <a href='https://www.dailymotion.com/' target='_blank' rel='noopener'>Dailymotion</a>. I’m living in Nice (FR), often working from Sophia-Antipolis, where I used to be involved in the local dev community (I co-founded <a href='https://www.twitter.com/JSSophia' target='_blank' rel='noopener'>@JSSophia</a>, a local JavaScript User Group, and was involed in <a href='https://www.rivieradev.fr' target='_blank' rel='noopener'>RivieraDEV</a> conf for example). <br/>I'm also a proud Dad, Partner & responsible citizen; enjoying video games, <em>bande-dessinée</em>, and graphical arts on my free time. <br/>Climate change and biodiversity collapse is definitely an emergency and a concern."
 author: Olivier Audard
 language: en
 timezone:
@@ -181,8 +181,8 @@ theme_config:
   #   - grayout: whether to enable a hover effect on the logo
   logo:
     enabled: true
-    width: 50
-    height: 50
+    width: 75
+    height: 75
     url: /images/logo.png
     gravatar: true
     grayout: true
@@ -214,7 +214,7 @@ theme_config:
   # Set the color scheme.
   # Available color schemes are 'dark', 'light', 'classic' and 'white'.
   # Alternatively, add your own custom color scheme to source/css/_colors.
-  colorscheme: dark
+  colorscheme: white
 
   # Maximal width of the page in rem units.
   page_width: 48
