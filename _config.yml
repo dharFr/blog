@@ -276,6 +276,11 @@ theme_config:
     enabled: false
     # id: e77e68be-f6e4-4br3-9365-2b76b57cd571
     # host: https://analytics.domain.com
+  
+  # Fill in your GoatCounter Analytics tracking CODE to enable GoatCounter Analytics.
+  goatcounter_analytics:
+    enabled: true
+    code: 'oaudard'
 
   # Fill in you Gravatar email or hash if you want to use your gravatar as the
   # logo and/or favicons of you website.
