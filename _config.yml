@@ -5,7 +5,7 @@
 # Site
 title: Olivier Audard
 subtitle: Mostly Web Dev stuff...
-description: "My name is Olivier. I'm a Front-end developer and Engineering Manager. Currently working as a Director of Engineering at <a href='https://www.dailymotion.com/' target='_blank' rel='noopener'>Dailymotion</a>. I’m living in Nice (FR), often working from Sophia-Antipolis, where I used to be involved in the local dev community (I co-founded <a href='https://www.twitter.com/JSSophia' target='_blank' rel='noopener'>@JSSophia</a>, a local JavaScript User Group, and was involed in <a href='https://www.rivieradev.fr' target='_blank' rel='noopener'>RivieraDEV</a> conf for example). <br/>I'm also a proud Dad, Partner & responsible citizen; enjoying video games, <em>bande-dessinée</em>, and graphical arts on my free time. <br/>Climate change and biodiversity collapse is definitely an emergency and a concern."
+description: "My name is Olivier. I'm a Front-end developer and Engineering Manager. Currently working as a Director of Engineering at <a href='https://www.dailymotion.com/' target='_blank' rel='noopener'>Dailymotion</a>. I’m living in Nice (FR), often working from Sophia-Antipolis, where I used to be involved in the local dev community (I co-founded <a href='https://jssophia.io' target='_blank' rel='noopener'>@JSSophia</a>, a local JavaScript User Group, and was involed in <a href='https://www.rivieradev.fr' target='_blank' rel='noopener'>RivieraDEV</a> conf for example). <br/>I'm also a proud Dad, Partner & citizen; enjoying video games, <em>bande-dessinée</em>, and graphical arts on my free time."
 author: Olivier Audard
 language: en
 timezone:
@@ -123,6 +123,7 @@ theme_config:
     stack-overflow: http://stackoverflow.com/users/447446/dhar
     # twitter: http://twitter.com/_dhar
     dailymotion: https://www.dailymotion.com/dharfr
+    rss: /atom.xml
 
   # Customize the overview with displaying a tagcloud on the index page.
   # Options: https://hexo.io/docs/helpers.html#tagcloud
