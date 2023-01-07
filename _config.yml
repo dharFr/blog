@@ -120,8 +120,8 @@ theme_config:
     rebel: https://mamot.fr/@oad
     linkedin: https://www.linkedin.com/in/audard
     github: http://github.com/dharFr
-    twitter: http://twitter.com/_dhar
     stack-overflow: http://stackoverflow.com/users/447446/dhar
+    # twitter: http://twitter.com/_dhar
     dailymotion: https://www.dailymotion.com/dharfr
 
   # Customize the overview with displaying a tagcloud on the index page.
@@ -225,7 +225,7 @@ theme_config:
   ##############################################################################
 
   # Enable or disable the RSS feed.
-  rss: true
+  rss: 
 
   # Turn your web pages into graph objects (see http://ogp.me).
   open_graph:
