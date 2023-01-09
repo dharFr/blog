@@ -12,8 +12,15 @@
 /blog/categories/*  /410.html         410
 /blog/page/*        /410.html         410
 
+# Initialy hosted lone-star as a submodule on that path, 
+# before using proxy redirect bellow. 
+# Keeping backward compatibility just in case
+/experiments/lone-star/   lone-star/
+
 # Proxy redirects
 /twitter/* https://twitter-dhar.netlify.app/:splat 200!
+/the-way-we-move/* https://the-way-we-move.netlify.app/:splat 200!
+/lone-star/* https://oaudard-lone-star.netlify.app/:splat 200!
 
 # Google search console fixes
 /blog/2012/10/28/a-quick-talk-about-grunt           /blog/2012/10/28/adding-grunt-to-your-web-application-project/
