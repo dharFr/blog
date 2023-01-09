@@ -1,7 +1,7 @@
  [
    {
       "name":"Lone Star",
-      "url":"/experiments/lone-star/",
+      "url":"/lone-star/",
       "desc":"Playing with lines and randomness using p5.js and canvas API. Yet another attempt to _Code like no one's watching_"
    },
    {
@@ -11,7 +11,7 @@
    },
    {
       "name":"The Way We Move",
-      "url":"https://the-way-we-move.surge.sh/",
+      "url":"/the-way-we-move/",
       "desc":"Let's play with canvas drawing and WebAudio API, see if something interesting might appear. A first attempt to Code like no one's watching."
    },
    {
