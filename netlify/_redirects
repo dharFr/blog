@@ -15,7 +15,7 @@
 # Initialy hosted lone-star as a submodule on that path, 
 # before using proxy redirect bellow. 
 # Keeping backward compatibility just in case
-/experiments/lone-star/   lone-star/
+/experiments/lone-star/   /lone-star/
 
 # Proxy redirects
 /twitter/* https://twitter-dhar.netlify.app/:splat 200!
