@@ -5,14 +5,24 @@
       "desc":"Playing with lines and randomness using p5.js and canvas API. Yet another attempt to _Code like no one's watching_"
    },
    {
-      "name":"Badgee",
-      "url":"https://github.com/dharFr/badgee/",
-      "desc":"A browser console improvement"
-   },
-   {
       "name":"The Way We Move",
       "url":"/the-way-we-move/",
       "desc":"Let's play with canvas drawing and WebAudio API, see if something interesting might appear. A first attempt to Code like no one's watching."
+   },
+   {
+      "name":"Badgee",
+      "url":"https://www.npmjs.com/package/badgee",
+      "desc":"A browser console improvement, in less than 1 kB"
+   },
+   {
+      "name":"eslint-plugin-no-for-of-loops",
+      "url":"https://www.npmjs.com/package/eslint-plugin-no-for-of-loops",
+      "desc":"An eslint plugin to prevent `for (...of)` loops usage in your code base."
+   },
+   {
+      "name":"hexo-tag-dailymotion",
+      "url":"https://www.npmjs.com/package/hexo-tag-dailymotion",
+      "desc":"A tag plugin to embed Dailymotion video player in your Hexo blog"
    },
    {
       "name":"Testing Dailymotion Video Player",
