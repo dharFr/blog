@@ -15,21 +15,6 @@
       "desc":"Let's play with canvas drawing and WebAudio API, see if something interesting might appear. A first attempt to Code like no one's watching."
    },
    {
-      "name":"Prettyprint Bookmarklet",
-      "url":"https://dharFr.github.io/prettyprint-bookmarklet/",
-      "desc":"A small bookmarklet to apply google-code-prettify syntax highlighting to any in-browser raw code."
-   },
-   {
-      "name":"Grunt-wkhtmltopdf",
-      "url":"https://dharFr.github.io/grunt-wkhtmltopdf/",
-      "desc":"Grunt Task that uses wkhtmltopdf to convert HTML files to PDF"
-   },
-   {
-      "name":"Static Templater",
-      "url":"https://github.com/dharFr/static-templater/",
-      "desc":"A grunt-based command line tool to render HTML and PDF from JSON and HTML templates"
-   },
-   {
       "name":"Testing Dailymotion Video Player",
       "url":"/Test-page-Dailymotion-Video-Player/",
       "desc":"A basic test page for Dailymotion Video Player"
