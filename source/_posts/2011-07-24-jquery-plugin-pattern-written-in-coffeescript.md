@@ -14,6 +14,7 @@ Once your [CoffeeScript](http://jashkenas.github.com/coffee-script/) environment
 
 The code bellow is a starting point, it's clearly inspired from the [jQuery Doc](http://docs.jquery.com/Plugins/Authoring). Just search/replace <code>pluginName</code> with your plugin name and go ahead with your own code.
 
+<!-- more -->
 {% gist 1101485 %}
 
 Links Summary:

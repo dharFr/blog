@@ -9,10 +9,12 @@ tags:
  - bookmarks
 ---
 
+
 ## Web Development
 
  * [Javascript forms validation.Powerful, UX aware & Dead simple.](http://parsleyjs.org/)
  * [Make the Web Faster — Google Developers](https://developers.google.com/speed/)
+<!-- more -->
  * [stackoverflow - Determining a page is outdated on github pages](http://stackoverflow.com/questions/12556593/determining-a-page-is-outdated-on-github-pages)
  * [Firebug Tip : include() command](http://www.softwareishard.com/blog/firebug/firebug-tip-include-command/)
  * [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/)

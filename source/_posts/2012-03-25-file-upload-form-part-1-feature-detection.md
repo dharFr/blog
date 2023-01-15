@@ -25,6 +25,8 @@ This post focus on the first part of the talk.
 It presents the _feature detection_ technique.
 I'll cover the second part, _loosely coupled modules_, in another article.
 
+<!-- more -->
+
 If you're in a hurry, or simply don't want to read the whole post, you'll find the slides embedded below and everything else on Github:
 
 - The final [uploader-thumbnail](https://github.com/dharFr/uploader-thumbnail/) source code.
@@ -53,8 +55,6 @@ The talk was in French so the slides are also written in French, even if it uses
 <div class="dhar-aspect-ratio">
   {% iframe /assets/slides/embedder.html#uploader-thumbnail/slides.html %}
 </div>
-
-<!-- more -->
 
 ### Initial Markup
 

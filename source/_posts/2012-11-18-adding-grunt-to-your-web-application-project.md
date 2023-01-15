@@ -14,10 +14,10 @@ tags:
 
 A few weeks ago, a gave a quick talk about [Grunt][grunt] at [@JSSophia][jssophia], our local Javascript User Group.
 During this talk, my purpose was to quickly present the tool and show some example use cases.
+<!-- more -->
 I must confess I wasn't as prepared as I would have been, so my talk may have been confused or unclear from time to time.
 If you attended the event, I hope this post will give you more details.
 If not, it doesn't matter, I'm still happy to share my thoughts about this amazing tool.
-
 
 You'll find the slides bellow.
 The first part mostly present _Grunt_ and why I think it's a game-changer for front-end developers. As I already wrote about this in my [previous post about Grunt][previouspost], I invite you to read it if it sounds interesting to you.

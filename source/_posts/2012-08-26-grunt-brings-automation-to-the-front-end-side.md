@@ -14,6 +14,7 @@ tags:
 Over the past few weeks, I realized that I added [grunt][grunt] in every little side project I worked on.
 Thinking about it, I'm not sure if I can even imagine to start a project without this tool.
 
+<!-- more -->
 You probably already heard about **grunt**, don't you? In case you don't (seriously?), it's been created by [Ben Alman (aka. cowboy)](http://benalman.com/).
 I guess the best description is the one from the official home page:
 
@@ -37,7 +38,7 @@ It doesn't reinvent anything but allows you to organize your workflow in an unif
 ## Do we need such a tool?
 
 As a front-end developer, automation wasn't really part of my workflow.
-My first job was in some king of web agency were every desktop machine ran on Windows XP, and our main development tools were Dreamweaver MX (I guess I'm getting old...) and Filezilla. <!-- more -->
+My first job was in some king of web agency were every desktop machine ran on Windows XP, and our main development tools were Dreamweaver MX (I guess I'm getting old...) and Filezilla. 
 At the time we would never have considered automation, unit testing or continuous integration.
 
 Then I left that company and found a real engineer job.

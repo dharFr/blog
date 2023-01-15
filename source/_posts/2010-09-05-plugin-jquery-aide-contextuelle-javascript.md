@@ -12,9 +12,9 @@ tags:
 Voilà déjà pas mal de temps que je n'ai rien publié ici... Ce qui ne veux pas dire que j'ai rien dans les cartons. C'est plutôt le temps qui manque un peu quand il s'agit de présenter tout ça de façon correcte.
 
 Pour changer un peu des précédent articles dédiés au développement iPhone, je vais aujourd'hui présenter un petit outil Javascript, utilisant le Framework jQuery. Rien de révolutionnaire, c'est simplement un plugin jQuery permettant de dérouler un bandeau HTML au dessous d'un autre. J'ai appelé ce plugin 'helpBox' car ce widget est particulièrement adapté pour afficher une aide contextuelle.
-
-Voici le <strong> [code source](https://gist.github.com/1101480)</strong>.
 <!--more-->
+Voici le <strong> [code source](https://gist.github.com/1101480)</strong>.
+
 Rien de bien compliqué ici si l'on connais déjà la structure d'un plugin jQuery.
 On commence par définir quelques paramètres...
 
