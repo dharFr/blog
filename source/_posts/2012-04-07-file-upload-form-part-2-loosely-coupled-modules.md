@@ -21,6 +21,8 @@ It uses `FormData` and `FileList` APIs in modern browsers but also degrades grac
 This time, I'll explain how to handle the thumbnail associated to the file input field.
 It's a good example to introduce _loosely coupled modules_, and to show some other uses of the _feature detection_ technique.
 
+<!-- more -->
+
 As mentioned in the previous post, you can find the source code on Github: [uploader-thumbnail](https://github.com/dharFr/uploader-thumbnail/).
 
 ### Loosely Coupled Modules
@@ -29,8 +31,6 @@ If you never hear about loosely coupled module, I highly recommended you to read
 
 - Nicholas Zakas' talk on [Scalable JavaScript Application Architecture](http://www.youtube.com/watch?v=vXjVFPosQHw) [YouTube]
 - Addy Osmani's [Patterns For Large-Scale JavaScript Application Architecture](http://addyosmani.com/largescalejavascript/)
-
-<!-- more -->
 
 Those links will give you a pretty good picture but to summarize briefly, the main  concepts to keep in mind when you want to rely on a _loosely coupled modules_ architecture is that you need to:
 

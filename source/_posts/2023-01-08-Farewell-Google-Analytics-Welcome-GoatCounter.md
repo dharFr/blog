@@ -12,10 +12,11 @@ tags:
 
 _*TLDR*: This website is now free from Google Analytics tracking. I'm giving a try to [GoatCounter](https://www.goatcounter.com) as a privacy-friendly alternative_
 
-
+<!-- more --> 
 ## Farewell Google Analytics, you won't be missed...
 
 For as long as this website exists, each page was loading Google Analytics script. I used this tool to get a sense of how many people were getting there. I never had a large audience, or even published a lot of content, so why do I care? The point is, it's always self-rewarding to see that people read the stuff you write, and use the tools you made. It might also be a good incentive to publish more content. Or a way to identify which content gets traction, and which one does not.
+
 
 When I created this blog ~15 years ago, I added Google Analytics without event thinking about it. It was a free-to-use and popular tool. I'm pretty sure I was already familiar with it for having used it at work at one point or another. Since then, I never really questioned that decision and even almost forgot about it at some point.
 

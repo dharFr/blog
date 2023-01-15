@@ -13,10 +13,10 @@ tags:
 Ce soir, pour la première fois depuis la création de mon compte il y a environ 3 400 tweets, je me suis fait agresser sur Twitter.
 
 Bon, d'accord, j'exagère un peu. C'est bien moins grave que ça en a l'air mais cette prise à partie m'a tellement surpris que j'en écris un article à chaud.
+<!-- more -->
 
 Oh, je m'en remettrais, hein! Ne vous en faites pas ;)
 
-<!-- more -->
 
 ## Un peu de contexte
 

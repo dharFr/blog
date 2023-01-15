@@ -15,13 +15,13 @@ _This post is about the Riviera Coding Week-end, a geek event that took place in
 As this post is closely related to a French event, I think for once, it's more appropriate to write in French, even if I usually blog in English.
 If you're anyway interested, I'm sure [Google translate](http://translate.google.com/translate?hl=en&sl=fr&tl=en&u=http%3A%2F%2Fwww.dhar.fr%2Fblog%2F2012%2F08%2F13%2Ffr-compte-rendu-du-riviera-coding-week-end%2F) or any other translation tool can fit your needs..._
 
+<!-- more -->
+
 [{% img right /assets/images/RivieraCWE-1.jpg "Seb profite d un repos bien mérité" %}](https://www.icloud.com/sharedalbum/fr-fr/#B0h5Uzl7VjJbIn;E5B270E4-A32E-419E-9283-FF4AAF9404E9)
 Du 10 au 12 Août dernier, j'ai participé au premier _Riviera Coding Week-end_, organisé par les membres du [RivieraGUG](http://www.meetup.com/Riviera-Groovy-Grails-User-Group/) avec la participation du [JSSophia](http://groups.google.com/group/jssophia) dont je fais partie.
 À ma connaissance, c'est le premier événement du genre qui ait lieu sur la côte d'azur.
 C'est en tout cas le premier auquel j'ai eu l'occasion de participer.
 Après ces 48 heures passées à construire, échanger, mais surtout coder, un petit bilan me semble bien utile.
-
-<!-- more -->
 
 ## Un Coding Week-End, quelle idée...
 

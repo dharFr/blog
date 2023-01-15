@@ -19,6 +19,7 @@ The downsides are :
  - Pocket doesn't provide a easy way share a bunch of links
  - I don't want to save those on Pocket without a backup somewhere else
 
+<!-- more -->
 For some time now, I looking for a way to force myself to check this list on a regular basis.
 Moreover, even if [IFTTT][IFTTT] allows me to perform automatic backup of the bookmarks, no one but me can take advantage of this list.
 
