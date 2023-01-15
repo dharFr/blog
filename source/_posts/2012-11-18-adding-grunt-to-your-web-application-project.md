@@ -3,6 +3,8 @@ layout: post
 title: "Adding Grunt to your web-application project"
 date: 2012-10-28 00:24
 comments: true
+category:
+  - articles
 tags:
  - Automation
  - grunt.js

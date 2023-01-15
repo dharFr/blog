@@ -3,6 +3,8 @@ layout: post
 title: "Queued ajax requests with jQuery and Coffescript"
 date: 2012-03-31 21:46
 comments: true
+category:
+  - articles
 tags:
 - Coffeescript
 - JavaScript
