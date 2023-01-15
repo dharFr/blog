@@ -2,6 +2,8 @@
 layout: post
 title: Moving away from Twitter, to Mastodon & my own website
 date: 2023-01-02 21:17:10
+category:
+  - articles
 tags:
  - Opinions
  - Social Networks

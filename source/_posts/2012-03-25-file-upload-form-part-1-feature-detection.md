@@ -3,6 +3,8 @@ layout: post
 title: "File Upload Form - Part 1: Feature Detection"
 date: 2012-03-24 16:55
 comments: true
+category:
+  - articles
 tags:
 - JavaScript
 - Progressive Enhancement

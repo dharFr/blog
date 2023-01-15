@@ -2,6 +2,8 @@
 layout: post
 title: Plugin jQuery - Aide contextuelle Javascript
 date: 2010-09-05
+category:
+  - articles
 tags:
 - JavaScript
 - jQuery

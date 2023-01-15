@@ -3,6 +3,8 @@ layout: post
 title: "Starting a \"Reading List\" posts series"
 date: 2013-01-27 18:29
 comments: true
+category:
+  - articles
 tags:
  - bookmarks
 ---

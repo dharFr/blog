@@ -3,6 +3,8 @@ layout: post
 title: "Some fun with git hooks and Grunt.js"
 date: 2012-07-23 22:55
 comments: true
+category:
+  - articles
 tags:
  - Automation
  - git hooks
