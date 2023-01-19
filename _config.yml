@@ -113,18 +113,35 @@ theme_config:
 
 
   # Links to your social media accounts.
-  # The keys should correspond to Fontawesome icon names
+  # The 'icon' keys should correspond to Fontawesome icon names
   # (see https://fontawesome.com/icons?d=gallery&s=brands);
   # only 'mail' is an exception.
+  # You can optionally add a 'label' key to set the title attribute on the link. 
+  # 'icon' value will be used as title when 'label' is missing.
   social_links:
-    mastodon: https://mastodon.social/@oad
-    rebel: https://mamot.fr/@oad
-    linkedin: https://www.linkedin.com/in/audard
-    github: http://github.com/dharFr
-    stack-overflow: http://stackoverflow.com/users/447446/dhar
-    # twitter: http://twitter.com/_dhar
-    dailymotion: https://www.dailymotion.com/dharfr
-    rss: /atom.xml
+    -
+      icon: mastodon
+      label: "@oad@mastodon.social"
+      link: https://mastodon.social/@oad
+    -
+      icon: mastodon
+      label: "@oad@mamot.fr"
+      link: https://mamot.fr/@oad
+    -
+      icon: linkedin
+      link: https://www.linkedin.com/in/audard
+    -
+      icon: github
+      link: http://github.com/dharFr
+    - 
+      icon: stack-overflow
+      link: http://stackoverflow.com/users/447446/dhar
+    -
+      icon: dailymotion
+      link: https://www.dailymotion.com/dharfr
+    -
+      icon: rss
+      link: /atom.xml
 
   # Customize the overview with displaying a tagcloud on the index page.
   # Options: https://hexo.io/docs/helpers.html#tagcloud
