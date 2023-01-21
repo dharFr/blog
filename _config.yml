@@ -173,6 +173,9 @@ theme_config:
   post:
     show_updated: false
 
+  # Use a custom domain for shortlinks (config.url will be used if missing)
+  shortlink_domain: "https://o.audard.net/"
+
   # Customize the copyright years
   # Note: if start_year/end_year not provided, will use current year.
   copyright:
