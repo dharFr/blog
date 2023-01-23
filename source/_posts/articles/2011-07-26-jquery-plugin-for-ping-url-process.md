@@ -2,8 +2,6 @@
 layout: post
 title: jQuery plugin for ping-URL process
 date: 2011-07-26
-category:
-  - articles
 tags:
 - JavaScript
 - jQuery

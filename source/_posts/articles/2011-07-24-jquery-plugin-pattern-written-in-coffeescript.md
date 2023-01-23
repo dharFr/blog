@@ -2,8 +2,6 @@
 layout: post
 title: jQuery plugin pattern written in Coffeescript
 date: 2011-07-24
-category:
-  - articles
 tags:
 - CoffeeScript
 - JavaScript

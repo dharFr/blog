@@ -2,8 +2,6 @@
 layout: post
 title: "QR Codes: intégration dans votre application iPhone en 10 minutes chrono!"
 date: 2010-04-20
-category:
-  - articles
 tags:
 - iPhone
 - Objective-C

@@ -2,8 +2,6 @@
 layout: post
 title: Farewell Google Analytics; Welcome GoatCounter
 date: 2023-01-08 18:50:42
-category:
-  - articles
 tags:
  - Privacy
  - IndeWeb

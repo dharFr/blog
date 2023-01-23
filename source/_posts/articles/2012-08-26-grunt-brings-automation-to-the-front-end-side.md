@@ -3,8 +3,6 @@ layout: post
 title: "Grunt brings automation to the front-end side"
 date: 2012-08-26 16:26
 comments: true
-category:
-  - articles
 tags:
  - Automation
  - grunt.js
