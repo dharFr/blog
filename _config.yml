@@ -86,6 +86,8 @@ sitemap:
 # hexo-filter-custom-link-tags
 custom_link_tags:
   micropub: https://olivier.audard.net/micropub/
+  token_endpoint: https://tokens.indieauth.com/token
+  authorization_endpoint: https://indieauth.com/auth
 
 ##############################################################################
 # 
