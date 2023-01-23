@@ -3,8 +3,6 @@ layout: post
 title: "File Upload Form - Part 2: Loosely Coupled Modules"
 date: 2012-04-07 17:48
 comments: true
-category:
-  - articles
 tags:
 - Javascript
 - Progressive Enhancement

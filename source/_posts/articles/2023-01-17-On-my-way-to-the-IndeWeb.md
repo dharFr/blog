@@ -3,8 +3,6 @@ title: On my way to the IndeWeb
 tags:
   - IndeWeb
   - Blog Meta
-category:
-  - articles
 date: 2023-01-17 21:16:27
 ---
 

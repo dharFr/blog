@@ -28,7 +28,7 @@ i18n_dir: :lang
 skip_render: [assets/**/*, jsweek/**/*, experiments/**/*, google397055fe6557c97c.html, dm5ghr5gyymgylqgz.html]
 
 # Writing
-new_post_name: :year-:month-:day-:title.md # File name of new posts
+new_post_name: :category/:year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
