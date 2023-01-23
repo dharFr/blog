@@ -15,3 +15,5 @@
 /twitter/* https://twitter-dhar.netlify.app/:splat 200!
 /the-way-we-move/* https://the-way-we-move.netlify.app/:splat 200!
 /lone-star/* https://oaudard-lone-star.netlify.app/:splat 200!
+/micropub/* https://oaudard-micropub.netlify.app/:splat 200!
+
