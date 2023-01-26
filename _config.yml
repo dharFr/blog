@@ -71,9 +71,28 @@ theme: cactus-dark
 deploy:
 
 # hexo-generator-feed plugin
+# feed:
+#   type: atom
+#   path: atom.xml
+
+# hexo-feed plugin
 feed:
-  type: atom
-  path: atom.xml
+  #limit: 20
+  #order_by: "-date"
+  tag_dir: tags
+  category_dir: /
+  rss:
+    enable: true
+    #template: "themes/theme/layout/_alternate/rss.ejs"
+    output: rss.xml
+  atom:
+    enable: true
+    #template: "themes/theme/layout/_alternate/atom.ejs"
+    output: atom.xml
+  jsonFeed:
+    enable: true
+    #template: "themes/theme/layout/_alternate/json.ejs"
+    output: feed.json
 
 # hexo-generator-tag plugin
 tag_generator:
@@ -255,7 +274,7 @@ theme_config:
   ##############################################################################
 
   # Enable or disable the RSS feed.
-  rss: 
+  rss: "hexo-feed"
 
   # Turn your web pages into graph objects (see http://ogp.me).
   open_graph:
