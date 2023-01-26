@@ -1,3 +1,51 @@
+# Settings in the [build] context are global and are applied to
+# all contexts unless otherwise overridden by more specific contexts.
+[build]
+  publish = "public/"
+  # Default build command.
+  command = "npm run build"
+
+# Projects redirects
+[[redirects]]
+  from = "/grunt-wkhtmltopdf"
+  to = "https://dharfr.github.io/grunt-wkhtmltopdf"
+
+[[redirects]]
+  from = "/prettyprint-bookmarklet"
+  to = "https://dharFr.github.io/prettyprint-bookmarklet"
+
+# Initialy hosted lone-star as a submodule on that path, 
+# before using proxy redirect bellow. 
+# Keeping backward compatibility just in case
+[[redirects]]
+  from = "/experiments/lone-star/"
+  to = "/lone-star/"
+
+# Proxy redirects
+[[redirects]]
+  from = "/twitter/*"
+  to = "https://twitter-dhar.netlify.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/the-way-we-move/*"
+  to = "https://the-way-we-move.netlify.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/lone-star/*"
+  to = "https://oaudard-lone-star.netlify.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/micropub/*"
+  to = "https://oaudard-micropub.netlify.app/:splat"
+  status = 200
+  force = true
+
 [[plugins]]
   package = "netlify-plugin-mastodon-alias"
 
@@ -6,3 +54,13 @@
     instance = "mastodon.social"
     # delete or comment the next line if you want "*@audard.net" to work rather than just "olivier@audard.net"
     # strictUsername = "olivier"
+
+# Use [dev] to set configuration overrides for local 
+# development environments run using Netlify Dev - except 
+# for environment variables. Environment variables for Netlify 
+# Dev should be set under [context.dev.environment] instead.
+[dev]
+  framework = "hexo"
+  command = "npm start"
+  port = 8888
+  publish = "public"
