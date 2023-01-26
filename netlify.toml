@@ -1,0 +1,8 @@
+[[plugins]]
+  package = "netlify-plugin-mastodon-alias"
+
+  [plugins.inputs]
+    username = "oad"
+    instance = "mastodon.social"
+    # delete or comment the next line if you want "*@audard.net" to work rather than just "olivier@audard.net"
+    # strictUsername = "olivier"
