@@ -4,9 +4,9 @@ title: Moving away from Twitter, to Mastodon & my own website
 date: 2023-01-02 21:17:10
 tags:
  - Opinions
- - Social Networks
+ - SocialNetworks
  - IndeWeb
- - Blog Meta
+ - BlogMeta
 ---
 
 It's been a while since I published something here. Last post is from **2013**! That's almost exactly 10 years ago! For the last few years, for many different reasons, I didn't take the time to write anything that was worth publishing. When I had to share something online, I was mostly relying on Twitter by default, without even thinking about it. It was easy, convenient, and quite a direct way to interact with the small circle of friends and relatives I have online. As many other people, I was also relying a lot on Twitter to keep myself up-to-date on both work-related and more personal topics. 

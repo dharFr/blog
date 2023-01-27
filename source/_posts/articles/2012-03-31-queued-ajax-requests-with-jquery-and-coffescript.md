@@ -7,8 +7,8 @@ tags:
 - Coffeescript
 - JavaScript
 - jQuery
-- jQuery plugin
-- Deferred objects
+- jQueryPlugin
+- DeferredObjects
 ---
 
 I recently had to queue a few ajax requests. I wrote a little piece of Coffeescript+jQuery to provide a reusable way of doing it.

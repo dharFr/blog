@@ -2,7 +2,7 @@
 title: On my way to the IndeWeb
 tags:
   - IndeWeb
-  - Blog Meta
+  - BlogMeta
 date: 2023-01-17 21:16:27
 ---
 

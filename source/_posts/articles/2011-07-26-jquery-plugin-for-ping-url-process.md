@@ -5,7 +5,7 @@ date: 2011-07-26
 tags:
 - JavaScript
 - jQuery
-- jQuery plugin
+- jQueryPlugin
 ---
 If your page runs into an iframe hosted by another domain, you may want to keep the session open. The following jQuery plugin automates the "ping URL" process and provides some options.
 <!--more-->

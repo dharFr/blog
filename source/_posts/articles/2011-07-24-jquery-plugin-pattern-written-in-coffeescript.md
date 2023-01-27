@@ -6,7 +6,7 @@ tags:
 - CoffeeScript
 - JavaScript
 - jQuery
-- jQuery plugin
+- jQueryPlugin
 ---
 Once your [CoffeeScript](http://jashkenas.github.com/coffee-script/) environment is up and running, you may want to write some awesome new jQuery plugin with CoffeeScript.
 

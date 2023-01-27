@@ -5,7 +5,7 @@ date: 2023-01-08 18:50:42
 tags:
  - Privacy
  - IndeWeb
- - Blog Meta
+ - BlogMeta
 ---
 
 _*TLDR*: This website is now free from Google Analytics tracking. I'm giving a try to [GoatCounter](https://www.goatcounter.com) as a privacy-friendly alternative_
