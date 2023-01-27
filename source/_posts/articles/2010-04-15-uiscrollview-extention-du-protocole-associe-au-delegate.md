@@ -2,6 +2,7 @@
 layout: post
 title: "UIScrollView: Extention du protocole associé au delegate"
 date: 2010-04-15
+lang: fr
 tags:
 - iPhone
 - Objective-C
