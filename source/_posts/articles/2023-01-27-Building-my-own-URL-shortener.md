@@ -7,7 +7,11 @@ tags:
 date: 2023-01-27 22:55:20
 ---
 
-<p class="p-bridgy-mastodon-content" style="display: none;">#BlogPost: Building my own URL shortener. #blog #IndeWeb #permashortlink</p>
+<p class="p-bridgy-mastodon-content" style="display: none;">
+  #BlogPost: Building my own URL shortener. 
+  #blog #IndeWeb #permashortlink
+</p>
+<data class="p-bridgy-omit-link" value="false"></data>
 
 As I was looking into the different options to _Publish on my Own Site, Syndicate Elsewhere_ (see [<abbr>POSSE</abbr>](https://indieweb.org/POSSE)), I came across the idea of having a custom [permashortlink](https://indieweb.org/permashortlink) service.
 <!-- more -->
