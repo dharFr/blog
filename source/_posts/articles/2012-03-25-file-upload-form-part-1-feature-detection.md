@@ -5,8 +5,8 @@ date: 2012-03-24 16:55
 comments: true
 tags:
 - JavaScript
-- Progressive Enhancement
-- Feature Detection
+- ProgressiveEnhancement
+- FeatureDetection
 - Forms
 ---
 

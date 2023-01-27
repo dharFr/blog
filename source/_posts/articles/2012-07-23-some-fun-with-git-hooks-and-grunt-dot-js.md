@@ -5,9 +5,9 @@ date: 2012-07-23 22:55
 comments: true
 tags:
  - Automation
- - git hooks
+ - gitHooks
  - git
- - grunt.js
+ - GruntJS
 ---
 Before going further, I'll start by saying that I'm a Git and Github noob, so if you have a better solution to achieve the same goal, give me a shout, I'll be happy to hear it..!
 

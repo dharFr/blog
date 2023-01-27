@@ -5,8 +5,8 @@ date: 2013-01-24 23:28
 comments: true
 lang: fr
 tags:
- - In French
- - Personal Life
+ - InFrench
+ - PersonalLife
 ---
 
 Ce soir, pour la première fois depuis la création de mon compte il y a environ 3 400 tweets, je me suis fait agresser sur Twitter.

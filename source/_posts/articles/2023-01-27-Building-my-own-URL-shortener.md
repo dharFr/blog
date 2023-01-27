@@ -2,7 +2,7 @@
 title: Building my own URL shortener
 tags:
   - IndeWeb
-  - Blog Meta
+  - BlogMeta
   - Code
 date: 2023-01-27 22:55:20
 ---

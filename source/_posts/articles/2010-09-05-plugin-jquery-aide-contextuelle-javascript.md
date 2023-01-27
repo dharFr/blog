@@ -6,7 +6,7 @@ lang: fr
 tags:
 - JavaScript
 - jQuery
-- jQuery plugin
+- jQueryPlugin
 ---
 Voilà déjà pas mal de temps que je n'ai rien publié ici... Ce qui ne veux pas dire que j'ai rien dans les cartons. C'est plutôt le temps qui manque un peu quand il s'agit de présenter tout ça de façon correcte.
 

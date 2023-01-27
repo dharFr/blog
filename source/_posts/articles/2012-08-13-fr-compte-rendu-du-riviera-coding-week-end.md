@@ -3,9 +3,10 @@ layout: post
 title: "Compte-rendu du Riviera Coding Week-end"
 date: 2012-08-13 15:07
 comments: true
+lang: fr
 tags:
- - In French
- - Personal Life
+ - InFrench
+ - PersonalLife
  - Events
 ---
 
