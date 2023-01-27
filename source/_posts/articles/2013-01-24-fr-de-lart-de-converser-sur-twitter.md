@@ -3,6 +3,7 @@ layout: post
 title: "De l'art de converser sur Twitter (entre geeks)"
 date: 2013-01-24 23:28
 comments: true
+lang: fr
 tags:
  - In French
  - Personal Life
