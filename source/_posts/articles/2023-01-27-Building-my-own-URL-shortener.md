@@ -8,8 +8,8 @@ date: 2023-01-27 22:55:20
 ---
 
 <p class="p-bridgy-mastodon-content" style="display: none;">
-  #BlogPost: Building my own URL shortener. 
-  #blog #IndeWeb #permashortlink
+  #BlogPost: Building my own URL shortener. <br/>
+  #blog #IndeWeb #permashortlink <br/>
 </p>
 <data class="p-bridgy-omit-link" value="false"></data>
 
