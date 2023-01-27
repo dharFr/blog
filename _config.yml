@@ -108,6 +108,10 @@ custom_link_tags:
   token_endpoint: https://tokens.indieauth.com/token
   authorization_endpoint: https://indieauth.com/auth
 
+# hexo-helper-url-courte-shortlink
+# Use a custom domain for shortlinks (config.url will be used if missing)
+shortlink_domain: "https://o.audard.net/"
+
 ##############################################################################
 # 
 # [cactus-dark] Theme config override
@@ -197,9 +201,6 @@ theme_config:
   #   - show_updated: show the last modification date.
   post:
     show_updated: false
-
-  # Use a custom domain for shortlinks (config.url will be used if missing)
-  shortlink_domain: "https://o.audard.net/"
 
   # Customize the copyright years
   # Note: if start_year/end_year not provided, will use current year.
