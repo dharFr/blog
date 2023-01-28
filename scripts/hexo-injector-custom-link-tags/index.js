@@ -4,5 +4,5 @@
 const config = hexo.config;
 
 if (config.custom_link_tags != false) {
-    hexo.extend.filter.register('after_render:html', require('./lib/link-tags-injector'));
+    hexo.extend.injector.register('head_end', require('./lib/link-tags-injector').bind(hexo));
 }
