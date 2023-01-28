@@ -107,6 +107,9 @@ custom_link_tags:
   micropub: https://olivier.audard.net/micropub/micropub
   token_endpoint: https://tokens.indieauth.com/token
   authorization_endpoint: https://indieauth.com/auth
+  webmention: https://webmention.io/olivier.audard.net/webmention
+  pingback: https://webmention.io/olivier.audard.net/xmlrpc
+
 
 # hexo-helper-url-courte-shortlink
 # Use a custom domain for shortlinks (config.url will be used if missing)
