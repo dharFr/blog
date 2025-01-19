@@ -162,10 +162,6 @@ theme_config:
       label: "@oad@mastodon.social"
       link: https://mastodon.social/@oad
     -
-      icon: mastodon
-      label: "@oad@mamot.fr"
-      link: https://mamot.fr/@oad
-    -
       icon: linkedin
       link: https://www.linkedin.com/in/audard
     -
@@ -174,9 +170,6 @@ theme_config:
     - 
       icon: stack-overflow
       link: http://stackoverflow.com/users/447446/dhar
-    -
-      icon: dailymotion
-      link: https://www.dailymotion.com/dharfr
     -
       icon: rss
       link: /atom.xml
