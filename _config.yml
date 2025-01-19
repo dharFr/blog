@@ -5,7 +5,13 @@
 # Site
 title: Olivier Audard
 subtitle: Mostly Web Dev stuff...
-description: "My name is Olivier. I'm a Front-end developer and Engineering Manager. Currently working as a Director of Engineering at [Dailymotion](https://www.dailymotion.com). I’m living in Nice (FR), often working from Sophia-Antipolis, where I used to be involved in the local dev community (I co-founded [@JSSophia](https://jssophia.io), a local JavaScript User Group, and was involed in [RivieraDEV](https://www.rivieradev.fr) conf for example). <br/>I'm also a proud Dad, Partner & citizen; enjoying video games, _bande-dessinée_, and graphical arts on my free time."
+description: "My name is Olivier. I'm a Front-End developer and Engineering Manager who spent the last 20 years building user-facing software. 
+
+I'm currently working as an Operations Manager on [EcoDesignCloud](https://www.ecodesigncloud.com), a SaaS platform providing Environmental Impact Management, using Life-Cycle Assessment to help retailers and <abbr title='Point of Sale Materials'>POSM</abbr> industry reach their sustainability targets. Before that, I spent 10 years working at [Dailymotion](https://www.dailymotion.com) in different roles, such as Front-end Web Architect, and Director of Engineering. 
+
+I live in Nice (FR), often work from Sophia-Antipolis, where I used to be involved in the local dev community (I co-founded [@JSSophia](https://jssophia.io), a local JavaScript User Group, and was part of the organization team for [RivieraDEV](https://www.rivieradev.fr) conf). 
+
+I'm also a proud dad, partner, and citizen; enjoying video games, _bande-dessinée_, and graphical arts in my free time."
 author: Olivier Audard
 language: en
 timezone:
