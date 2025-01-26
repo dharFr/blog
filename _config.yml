@@ -283,7 +283,7 @@ theme_config:
   open_graph:
     fb_app_id:
     fb_admins:
-    twitter_id: _dhar
+    twitter_id:
     google_plus:
 
 
