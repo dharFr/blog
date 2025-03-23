@@ -41,6 +41,12 @@
   force = true
 
 [[redirects]]
+  from = "/jeu-de-la-vie/*"
+  to = "https://jeu-de-la-vie.statichost.eu/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/micropub/*"
   to = "https://oaudard-micropub.netlify.app/:splat"
   status = 200
