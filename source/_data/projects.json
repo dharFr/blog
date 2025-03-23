@@ -1,5 +1,10 @@
  [
    {
+      "name":"Jeu de la vie",
+      "url":"/jeu-de-la-vie/",
+      "desc":"A home-made implementation of the famous Conway's \"Game of Life\" in JS. Coded in pair with my son."
+   },
+   {
       "name":"Lone Star",
       "url":"/lone-star/",
       "desc":"Playing with lines and randomness using p5.js and canvas API. Yet another attempt to _Code like no one's watching_"
