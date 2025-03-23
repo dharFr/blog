@@ -2,9 +2,9 @@
 Owner: Olivier Audard
 
 Mastodon: 
-	- https://mamot.fr/@oad
 	- https://mastodon.social/@oad
-Github: http://github.com/dharFr
+Codeberg: https://codeberg.org/oad
+Github: https://github.com/dharFr
 Location: Nice, France
 
 /* SITE */
