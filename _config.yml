@@ -147,7 +147,8 @@ theme_config:
     home: /
     Articles: /articles/
     Notes: /notes/
-    Github: http://github.com/dharFr
+    Codeberg: https://codeberg.org/oad
+    Github: https://github.com/dharFr
 
 
   # Links to your social media accounts.
@@ -165,8 +166,12 @@ theme_config:
       icon: linkedin
       link: https://www.linkedin.com/in/audard
     -
+      icon: git-alt
+      label: "Codeberg"
+      link: https://codeberg.org/oad
+    -
       icon: github
-      link: http://github.com/dharFr
+      link: https://github.com/dharFr
     - 
       icon: stack-overflow
       link: http://stackoverflow.com/users/447446/dhar
