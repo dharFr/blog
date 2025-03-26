@@ -61,6 +61,10 @@
     # delete or comment the next line if you want "*@audard.net" to work rather than just "olivier@audard.net"
     # strictUsername = "olivier"
 
+[[edge_functions]]
+  function = "block-bots"
+  path = "/*"
+
 # Use [dev] to set configuration overrides for local 
 # development environments run using Netlify Dev - except 
 # for environment variables. Environment variables for Netlify 
