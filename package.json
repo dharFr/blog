@@ -9,7 +9,7 @@
     "build": "hexo generate"
   },
   "hexo": {
-    "version": "6.3.0"
+    "version": "7.3.0"
   },
   "dependencies": {
     "@dhar/url-courte": "^1.0.0",
@@ -28,6 +28,7 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-tag-dailymotion": "^1.1.0",
+    "hexo-tag-embed": "^1.0.0",
     "netlify-plugin-mastodon-alias": "^1.0.1"
   }
 }
